@@ -23,8 +23,9 @@ from url_security import UnsafeUrlError, validate_public_url
 
 
 BASE_DIR = Path(__file__).resolve().parent
-DOWNLOAD_DIR = Path(os.getenv("DOWNLOAD_DIR", BASE_DIR / "downloads"))
-SITE_URL = os.getenv("SITE_URL", "http://localhost:8000").rstrip("/")
+DEFAULT_DOWNLOAD_DIR = Path("/tmp/zipweb-downloads") if os.getenv("VERCEL") else BASE_DIR / "downloads"
+DOWNLOAD_DIR = Path(os.getenv("DOWNLOAD_DIR", DEFAULT_DOWNLOAD_DIR))
+SITE_URL = os.getenv("SITE_URL", "https://web-scraping-html-css.vercel.app").rstrip("/")
 GOOGLE_SITE_VERIFICATION = os.getenv("GOOGLE_SITE_VERIFICATION", "")
 JOB_TTL_SECONDS = 60 * 60
 MAX_REQUESTS_PER_HOUR = 5
