@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title description">
+  <title id="title">ZipWeb</title>
+  <desc id="description">Convierte una pagina web publica en archivos editables dentro de un ZIP.</desc>
+  <rect width="1200" height="630" fill="#f5f2eb"/>
+  <g stroke="#171816" stroke-opacity=".08">
+    <path d="M0 70h1200M0 140h1200M0 210h1200M0 280h1200M0 350h1200M0 420h1200M0 490h1200M0 560h1200"/>
+    <path d="M70 0v630M140 0v630M210 0v630M280 0v630M350 0v630M420 0v630M490 0v630M560 0v630M630 0v630M700 0v630M770 0v630M840 0v630M910 0v630M980 0v630M1050 0v630M1120 0v630"/>
+  </g>
+  <rect x="64" y="58" width="1072" height="514" fill="#fffefa" stroke="#171816" stroke-width="2"/>
+  <text x="108" y="122" fill="#171816" font-family="Arial, sans-serif" font-size="32" font-weight="700"><tspan fill="#f15a3b">ZIP</tspan>WEB</text>
+  <circle cx="1082" cy="106" r="8" fill="#087f78"/>
+  <text x="108" y="268" fill="#171816" font-family="Arial, sans-serif" font-size="78" font-weight="700">De URL a archivos</text>
+  <text x="108" y="358" fill="#f15a3b" font-family="Georgia, serif" font-size="82" font-style="italic">editables.</text>
+  <text x="108" y="438" fill="#686a63" font-family="Arial, sans-serif" font-size="27">HTML renderizado · CSS · imagenes · fuentes</text>
+  <rect x="108" y="486" width="248" height="54" fill="#171816"/>
+  <text x="232" y="521" fill="#fffefa" font-family="Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle">DESCARGAR EN ZIP</text>
+</svg>
